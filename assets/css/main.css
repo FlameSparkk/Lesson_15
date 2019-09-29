@@ -1,0 +1,233 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+p, h2 {
+    margin: 0;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+.center {
+    width: 1580px;
+    margin: 0 auto;
+}
+
+.page-header__top {
+    position: relative;
+}
+
+.slider-image {
+    width: 100%;
+}
+
+.page-header__top__text {
+    width: 270px;
+    height: 130px;
+    position: absolute;
+    top: 0;
+    left: 7%;
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-image: url('../images/bookmark.png');
+    color: #ffffff;
+    font-family: "Century Gothic";
+    font-size: 28px;
+    line-height: 38px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.slider__button {
+    display: block;
+    position: absolute;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.slider__button:last-child {
+    left: initial;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.page-header__bottom {
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.page-header__bottom__wrapper {
+    margin-bottom: 5px;
+}
+
+.header-nav {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    display: flex;
+    justify-content: center;
+    color: #000000;
+    font-family: "Century Gothic";
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.header-nav__link:not(:last-child) {
+    margin-right: 35px;
+}
+
+.header-nav__link:hover {
+    text-decoration: underline;
+}
+
+.main {
+    height: 750px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main__menu,
+.main__profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 290px;
+    height: 350px;
+    background-color: #d7d7d7;
+}
+
+.main__menu__title,
+.main__profile__title {
+    position: absolute;
+    top: 0;
+    width: 150px;
+    height: 40px;
+    background-color: #6b6b6b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-family: "Century Gothic";
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.main__menu__nav,
+.main__profile__nav {
+    width: 255px;
+    height: 310px;
+    border: 1px solid #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu__list,
+.profile__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #000000;
+    font-family: "Century Gothic";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 44px;
+    text-transform: uppercase;
+}
+
+.menu__link:hover,
+.profile__link:hover {
+    text-decoration: underline;
+}
+
+.main__events {
+    width: 65%;
+    height: 330px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.event-switch {
+    display: inline-block;
+    width: 125px;
+    height: 20px;
+    padding: 0;
+    margin-left: 50px;
+    background-color: transparent;
+    color: #000000;
+    font-family: "Century Gothic";
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.event-switch:hover {
+    text-decoration: underline;
+}
+
+.event-switch:last-child {
+    margin-left: 0;
+    margin-right: 50px;
+}
+
+.main__event {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.event__date {
+    margin-top: 20px;
+    margin-bottom: 75px;
+    color: #000000;
+    font-family: "Century Gothic";
+    font-size: 35px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.event__name {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 50px;
+    margin-bottom: 55px;
+    border-bottom: 1px solid #dddddd;
+    color: #000000;
+    font-family: "Century Gothic";
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.event__description {
+    text-align: center;
+    color: #000000;
+    font-family: Georgia;
+    font-size: 17px;
+    font-weight: 400;
+}
